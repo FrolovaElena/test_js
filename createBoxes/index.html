@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="createBoxes.css" />
+  </head>
+  <body>
+    <div id="root">
+      <div id="controls">
+        <input
+          type="number"
+          min="0"
+          max="100"
+          step="1"
+          class="input"
+          placeholder="Введите число от 1 до 100"
+        />
+        <button type="button" action="create">Создать</button>
+        <button type="button" action="destroy">Очистить</button>
+      </div>
+      <div id="boxes" class="conteiner"></div>
+    </div>
+    <script src="createBoxex.js"></script>
+  </body>
+</html>

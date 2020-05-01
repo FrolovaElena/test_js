@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="searchImages.css" />
+  </head>
+  <body>
+    <div id="root">
+      <form class="search-form">
+        <input
+          type="text"
+          class="input"
+          name="query"
+          autocomplete="off"
+          placeholder="Search images"
+        />
+      </form>
+      <ul class="gallery"></ul>
+      <div class="overlay" role="presentation">
+        <div class="modal">
+          <img src="#" alt="image" />
+        </div>
+      </div>
+    </div>
+    <script src="searchImages.js"></script>
+  </body>
+</html>
